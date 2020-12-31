@@ -1,0 +1,16 @@
+{
+"personas" : [
+    {"nombre" :"Juan Rostran",
+     "edad":50,
+     "profesion":"Agronomo"
+    },
+    {"nombre" :"Luis Cardenas",
+     "edad":40,
+     "profesion":"Analista de Sistemas"
+    },
+    {"nombre" :"Lucia Cortez",
+     "edad":30,
+     "profesion":"DBAs"
+    }
+]
+};

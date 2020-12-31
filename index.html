@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="personas"></ul>
+    <script>
+       let personas= [
+           {"nombre" :"Juan Rostran",
+            "edad":50,
+            "profesion":"Agronomo"
+           },
+           {"nombre" :"Luis Cardenas",
+            "edad":40,
+            "profesion":"Analista de Sistemas"
+           },
+           {"nombre" :"Lucia Cortez",
+            "edad":30,
+            "profesion":"DBAs"
+           }
+       ];
+
+       let lstPersonas = "";
+       for (let idx = 0; idx < personas.length; idx++) 
+       {    
+           lstPersonas += `<li>${personas[idx].nombre}  => ${personas[idx].profesion}</li>`;     
+      
+       }
+
+       //listas
+       document.getElementById("personas").innerHTML=lstPersonas;
+
+    </script>
+</body>
+</html>
